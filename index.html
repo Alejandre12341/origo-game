@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d14">
+  <meta name="description" content="Origo Games — a selective group bringing together people, studios and companies shaping the future of games.">
+  <title>Origo Games — Building the future of gaming</title>
+  <link rel="icon" type="image/svg+xml" href="assets/origo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Origo Games home">
+      <img src="assets/origo-mark.svg" alt="" class="brand-mark">
+      <span>ORIGO<span class="brand-dot">.</span><small>GAMES</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#group" data-i18n="navGroup">The Group</a>
+      <a href="#approach" data-i18n="navApproach">Our approach</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-switch" id="languageToggle" aria-label="Cambiar idioma">ES <span>/</span> EN</button>
+      <a class="button button-small button-outline" href="#join" data-i18n="navJoin">Join the group <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">A SELECTIVE GAMING GROUP</span></div>
+        <h1 data-i18n="heroTitle">Different origins.<br><em>One direction.</em></h1>
+        <p class="hero-lede" data-i18n="heroText">Origo brings together people, studios and companies with a shared ambition: to shape what comes next in games.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#group" data-i18n="heroPrimary">Discover the group <span>↗</span></a>
+          <a class="text-link" href="#about" data-i18n="heroSecondary">Get to know Origo <span>→</span></a>
+        </div>
+        <div class="hero-footnote"><span class="pulse"></span><span data-i18n="heroFoot">A connected ecosystem for game creators.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract Origo geometric brand artwork">
+        <div class="art-grid"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core-mark"><img src="assets/origo-mark.svg" alt="Origo symbol"></div>
+        <div class="art-label art-label-top">ORIGO / 001</div>
+        <div class="art-label art-label-bottom">CREATE · CONNECT · GROW</div>
+        <div class="art-cross cross-a">+</div><div class="art-cross cross-b">+</div>
+      </div>
+      <div class="hero-scroll"><span></span><span data-i18n="scroll">SCROLL TO EXPLORE</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Origo values">
+      <div class="ticker-track"><span>PEOPLE</span><b>✳</b><span>STUDIOS</span><b>✳</b><span>COMPANIES</span><b>✳</b><span>GAMES</span><b>✳</b><span>PEOPLE</span><b>✳</b><span>STUDIOS</span><b>✳</b><span>COMPANIES</span><b>✳</b><span>GAMES</span><b>✳</b></div>
+    </section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-kicker">01 / <span data-i18n="aboutKicker">WHO WE ARE</span></div>
+      <div class="two-col">
+        <h2 data-i18n="aboutTitle">A shared platform<br>for <em>independent ambition.</em></h2>
+        <div class="section-copy">
+          <p data-i18n="aboutText">Origo Games is the company behind Origo Game Group — a curated network designed to connect talent, creative teams, studios and businesses across the video game industry.</p>
+          <p class="muted" data-i18n="aboutText2">We believe the strongest ideas grow when the right people meet. Our role is to create the conditions for meaningful collaboration, shared knowledge and long-term opportunities.</p>
+        </div>
+      </div>
+      <div class="principles">
+        <article class="principle"><span class="principle-number">01</span><div class="principle-icon">◈</div><h3 data-i18n="principle1Title">Curated by design</h3><p data-i18n="principle1Text">Membership is selective. Every connection starts with shared values and a clear reason to collaborate.</p></article>
+        <article class="principle"><span class="principle-number">02</span><div class="principle-icon">⌘</div><h3 data-i18n="principle2Title">Stronger together</h3><p data-i18n="principle2Text">We connect complementary skills, experience and perspectives across the industry.</p></article>
+        <article class="principle"><span class="principle-number">03</span><div class="principle-icon">↗</div><h3 data-i18n="principle3Title">Built for what’s next</h3><p data-i18n="principle3Text">We focus on sustainable relationships and opportunities that help members move forward.</p></article>
+      </div>
+    </section>
+
+    <section class="group-section" id="group">
+      <div class="section-wrap group-inner">
+        <div class="section-kicker">02 / <span data-i18n="groupKicker">THE ECOSYSTEM</span></div>
+        <div class="group-heading"><h2 data-i18n="groupTitle">One group.<br><em>Many perspectives.</em></h2><p data-i18n="groupText">Origo Game Group is the collective: a growing ecosystem of selected contributors from across the games landscape.</p></div>
+        <div class="ecosystem">
+          <div class="ecosystem-center"><img src="assets/origo-mark.svg" alt=""><strong>ORIGO<br>GAME GROUP</strong><small data-i18n="ecosystemCore">THE COLLECTIVE</small></div>
+          <div class="ecosystem-node node-one"><span>01</span><b data-i18n="nodePeople">PEOPLE</b><small data-i18n="nodePeopleSub">Talent & specialists</small></div>
+          <div class="ecosystem-node node-two"><span>02</span><b data-i18n="nodeStudios">STUDIOS</b><small data-i18n="nodeStudiosSub">Creative teams</small></div>
+          <div class="ecosystem-node node-three"><span>03</span><b data-i18n="nodeCompanies">COMPANIES</b><small data-i18n="nodeCompaniesSub">Industry partners</small></div>
+          <div class="ecosystem-ring"></div>
+        </div>
+        <p class="group-note" data-i18n="groupNote">Membership is reviewed individually. The group is not an open directory or automatic affiliation programme.</p>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="approach">
+      <div class="section-kicker">03 / <span data-i18n="approachKicker">HOW IT WORKS</span></div>
+      <div class="two-col approach-intro"><h2 data-i18n="approachTitle">Good connections<br>are <em>intentional.</em></h2><p data-i18n="approachText">Joining Origo Game Group is a considered process. We take the time to understand each applicant and how they could contribute to the wider ecosystem.</p></div>
+      <div class="steps">
+        <article><span>01</span><div><h3 data-i18n="step1Title">Apply</h3><p data-i18n="step1Text">Tell us who you are, what you do and what you hope to build.</p></div><b>↗</b></article>
+        <article><span>02</span><div><h3 data-i18n="step2Title">Review</h3><p data-i18n="step2Text">Our team reviews your background, goals and potential fit.</p></div><b>⌕</b></article>
+        <article><span>03</span><div><h3 data-i18n="step3Title">Selection</h3><p data-i18n="step3Text">We decide whether there is a strong mutual fit and a meaningful place in the group.</p></div><b>◇</b></article>
+        <article><span>04</span><div><h3 data-i18n="step4Title">Connect</h3><p data-i18n="step4Text">If selected, we work out the right way to participate and collaborate.</p></div><b>✳</b></article>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="section-wrap projects-inner">
+        <div class="section-kicker">04 / <span data-i18n="projectsKicker">SELECTED WORK</span></div>
+        <div class="projects-head"><h2 data-i18n="projectsTitle">Ideas in<br><em>motion.</em></h2><p data-i18n="projectsText">A home for the games, initiatives and collaborations connected to our ecosystem. More will be revealed as the group grows.</p></div>
+        <div class="project-placeholder"><div class="project-symbol">✳</div><div><span class="status-label" data-i18n="comingSoon">COMING INTO FOCUS</span><h3 data-i18n="projectPlaceholderTitle">The next chapter is taking shape.</h3><p data-i18n="projectPlaceholderText">Our projects and member spotlights will appear here.</p></div><span class="project-index">ORIGO / WORKS</span></div>
+      </div>
+    </section>
+
+    <section class="join-section section-wrap" id="join">
+      <div class="join-panel">
+        <div class="join-orbit"></div>
+        <div class="section-kicker">05 / <span data-i18n="joinKicker">BECOME PART OF THE GROUP</span></div>
+        <div class="join-content"><div><h2 data-i18n="joinTitle">Think you belong<br><em>in the picture?</em></h2><p data-i18n="joinText">We’re interested in hearing from ambitious people, studios and companies who share our outlook. Tell us about yourself.</p></div>
+          <form id="applicationForm" class="application-form">
+            <label><span data-i18n="formName">Name / Organisation</span><input name="name" required autocomplete="name" placeholder="Your name or studio"></label>
+            <label><span data-i18n="formEmail">Email address</span><input name="email" type="email" required autocomplete="email" placeholder="you@example.com"></label>
+            <label><span data-i18n="formType">I am a...</span><select name="type"><option value="Individual" data-i18n="typeIndividual">Individual</option><option value="Studio" data-i18n="typeStudio">Studio</option><option value="Company" data-i18n="typeCompany">Company</option></select></label>
+            <label><span data-i18n="formMessage">A little about you</span><textarea name="message" rows="3" placeholder="What do you do, and why Origo?"></textarea></label>
+            <button class="button button-primary form-submit" type="submit"><span data-i18n="formSubmit">Prepare application</span> <span>↗</span></button>
+            <p class="form-note" id="formNote" data-i18n="formNote">This demo prepares an email application. The contact address must be configured in script.js before launch.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="section-kicker">06 / <span data-i18n="contactKicker">START A CONVERSATION</span></div>
+      <div class="contact-row"><h2 data-i18n="contactTitle">Let’s make<br><em>things happen.</em></h2><div><p data-i18n="contactText">For partnerships, business enquiries or general questions, get in touch with the Origo team.</p><a class="contact-email" href="#join" data-i18n="contactCta">Contact Origo <span>↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main"><a class="brand footer-brand" href="#home"><img src="assets/origo-mark.svg" alt=""><span>ORIGO<span class="brand-dot">.</span><small>GAMES</small></span></a><p data-i18n="footerLine">Connecting the people shaping the future of games.</p><a href="#home" class="back-top" data-i18n="backTop">BACK TO TOP ↑</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> ORIGO GAMES</span><span>ORIGO GAME GROUP</span><span data-i18n="footerRights">ALL RIGHTS RESERVED</span></div>
+  </footer>
+</body>
+</html>
